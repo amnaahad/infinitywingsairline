@@ -1,0 +1,58 @@
+
+.footer {
+    background-color: #1d2022; /* Dark background color */
+    color: #fff; /* White text color */
+
+}
+
+.footer .footer-item {
+    margin-bottom: 30px;
+}
+
+.footer .footer-item h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.footer .footer-item a {
+    color: #ccc; /* Light gray text color */
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.footer .footer-item a:hover {
+    color: #fff; /* White text color on hover */
+}
+
+.footer .footer-bank-card {
+    margin-left: -4px; /* Adjust this value as needed */
+}
+
+.footer .footer-bank-card a {
+    margin-right: 10px;
+    color: #ccc; /* Light gray text color */
+    transition: color 0.3s;
+    display: inline-block; /* Display inline */
+}
+
+.footer .footer-bank-card a:hover {
+    color: #fff; /* White text color on hover */
+}
+
+
+.footer .social-icons a {
+    margin-right: 10px;
+    color: #ccc; /* Light gray text color */
+    transition: color 0.3s;
+    display: inline-block; /* Display inline */
+}
+
+.footer .social-icons a:hover {
+    color: #fff; /* White text color on hover */
+}
+
+

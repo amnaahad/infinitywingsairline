@@ -1,0 +1,145 @@
+ /* Tabs Styling */
+ .passenger-tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.ptab {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-right: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.ptab:last-child {
+    border-right: 1px solid #ccc;
+}
+
+.ptab.active {
+    background-color: #ff5c5c;
+    color: #fff;
+    position: relative;
+}
+
+.ptab.active::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px;
+    border-left: 10px solid #ff5c5c;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+
+  /* Form Section and Group Styling */
+  .form-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0.2, 0.3); /* Subtle shadow for form section */
+  padding: 20px; /* Padding inside the form section */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff; /* White background for the form */
+
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+  }
+  
+  .form-group .required {
+    color: red;
+  }
+  
+  input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Radio Group */
+  .radio-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .next-passenger {
+    background-color: #3d3b3b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Contact Information Section */
+  .checkbox-group {
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Mobile Group */
+  .mobile-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Checkbox Styling */
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Rewards Highlight */
+  .rewards-highlight {
+    color: #ff5c5c;
+    font-weight: bold;
+  }
+  
+  /* Continue Button Styling */
+  .continue-btn {
+    background-color: #ff5c5c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
+  .passenger-info, .contact-info {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .success-message-container {
+    background-color: #eaf7ea; /* Light green background for success */
+    border: 1px solid #c0e4c0; /* Light green border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding around the content */
+    margin: 16px 0; /* Vertical margin */
+    text-align: center; /* Center align the text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .success-message-text {
+    color: #2f8d2f; /* Darker green text for readability */
+    font-size: 18px; /* Slightly larger text */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 16px; /* Margin below the text */
+  }
+  
+  

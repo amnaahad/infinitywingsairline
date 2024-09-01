@@ -1,0 +1,36 @@
+/* Contact Start */
+.contact .container form .btn.btn-primary {
+    box-shadow: inset 0 0 0 0 var(--bs-primary);
+}
+
+.contact .container form .btn.btn-primary:hover {
+    box-shadow: inset 1000px 0 0 0 var(--bs-light) !important;
+    color: var(--bs-primary) !important;
+}
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the left */
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-group label {
+    display: flex;
+    align-items: center; /* Aligns checkbox and text vertically */
+    margin-bottom: 10px; /* Space between labels */
+    font-family: 'Arial', sans-serif; /* Consistent font family */
+    font-size: 14px; /* Font size for readability */
+    line-height: 1.5; /* Line height for better spacing */
+    margin-left: 0%;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .rewards-highlight {
+    color: #ff5c5c; /* Highlight color for rewards text */
+    font-weight: bold; /* Make the highlighted text bold */
+  }
+/* Contact End */

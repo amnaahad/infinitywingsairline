@@ -1,0 +1,236 @@
+/* styles.css */
+
+.pageContainer {
+
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+  }
+  
+  .contentContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  
+  .sidebar {
+    flex: 2;
+  }
+  
+  .mainContent {
+    margin-left: 20px;
+    flex: 2;
+  }
+  
+  .reservationSummary {
+    background-color: #fff;
+    width: max-content;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .sectionTitle {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+  }
+  
+  .flightDetails {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #555;
+    gap: 10px;
+  }
+  
+  .subHeader {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .text {
+    margin-bottom: 10px;
+  }
+  
+  .totalPrice {
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .paymentOptions {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .radioGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .radioLabel {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .paymentMethodOptions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .paymentMethodLabel {
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .paymentMethodLabel:hover {
+    background-color: grey;
+    border-color: black;
+  }
+  
+  .paymentMethodSelected {
+    background-color: grey;
+    color: #fff;
+    border-color: black;
+  }
+  
+  .radioInput {
+    margin-right: 10px;
+  }
+  
+  .paymentMethodImg {
+    width: 50px;
+    height: auto;
+  }
+  
+  .paymentMethodText {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .cardDetails {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .inputLabel {
+    display: block;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .expirationDate {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .select {
+    width: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .totalAmount {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .totalAmountText {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .totalAmountValue {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .confirmButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff4d4f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .confirmButton:hover {
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .errorText {
+    color: red;
+  }
+  .reservationIdContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  
+  .reservationIdLabel {
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .reservationIdValue {
+  
+    font-size: 16px;
+    color: #e84545; /* Highlight the Reservation ID with the accent color */
+  }
+  
+  

@@ -1,0 +1,323 @@
+{
+  "airports": {
+    "Armenia": ["Zvartnots International Airport (EVN) - Yerevan"],
+    "Azerbaijan": ["Heydar Aliyev International Airport (GYD) - Baku"],
+    "Bahrain": ["Bahrain International Airport (BAH) - Manama"],
+    "Egypt": ["Cairo International Airport (CAI) - Cairo"],
+    "Georgia": ["Tbilisi International Airport (TBS) - Tbilisi"],
+    "Germany": ["Frankfurt Airport (FRA) - Frankfurt", "Munich Airport (MUC) - Munich"],
+    "Iran": ["Imam Khomeini International Airport (IKA) - Tehran"],
+    "Iraq": ["Baghdad International Airport (BGW) - Baghdad"],
+    "Italy": ["Leonardo da Vinci–Fiumicino Airport (FCO) - Rome"],
+    "Jordan": ["Queen Alia International Airport (AMM) - Amman"],
+    "Kazakhstan": ["Nursultan Nazarbayev International Airport (NQZ) - Nur-Sultan"],
+    "Kenya": ["Jomo Kenyatta International Airport (NBO) - Nairobi"],
+    "Kuwait": ["Kuwait International Airport (KWI) - Kuwait City"],
+    "Kyrgyzstan": ["Manas International Airport (FRU) - Bishkek"],
+    "Lebanon": ["Beirut-Rafic Hariri International Airport (BEY) - Beirut"],
+    "Malaysia": ["Kuala Lumpur International Airport (KUL) - Kuala Lumpur"],
+    "Maldives": ["Velana International Airport (MLE) - Malé"],
+    "Morocco": ["Mohammed V International Airport (CMN) - Casablanca"],
+    "Oman": ["Muscat International Airport (MCT) - Muscat"],
+    "Pakistan": [
+      "Jinnah International Airport (KHI) - Karachi",
+      "Allama Iqbal International Airport (LHE) - Lahore",
+      "Multan International Airport (MUX)",
+      "Bacha Khan International Airport Peshawar (PEW)",
+      "Islamabad International Airport (ISB)"
+    ],
+    "Qatar": ["Hamad International Airport (DOH) - Doha"],
+    "Russia": ["Sheremetyevo International Airport (SVO) - Moscow"],
+    "SaudiArabia": [
+      "King Abdulaziz International Airport (JED) - Jeddah",
+      "King Khalid International Airport (RUH) - Riyadh"
+    ],
+    "Somaliland": ["Hargeisa Egal International Airport (HGA) - Hargeisa"],
+    "Thailand": ["Suvarnabhumi Airport (BKK) - Bangkok"],
+    "Turkey": ["Istanbul Airport (IST) - Istanbul"],
+    "Uganda": ["Entebbe International Airport (EBB) - Entebbe"],
+    "UnitedArabEmirates": [
+      "Dubai International Airport (DXB) - Dubai",
+      "Abu Dhabi International Airport (AUH) - Abu Dhabi"
+    ],
+    "Uzbekistan": ["Islam Karimov Tashkent International Airport (TAS) - Tashkent"]
+  },
+  "flightsData": [
+    {
+      "id": 1,
+      "departureTime": "13:05",
+      "arrivalTime": "00:20 (+1)",
+      "duration": "11 hour(s) 15 minute(s)",
+      "stops": 1,
+      "airline": "Infinity Wings",
+      "flightCode": "9P500",
+      "price": "PKR 128718",
+      "date": "10 Sep 2024",
+      "departureCountry": "Pakistan",
+      "arrivalCountry": "UnitedArabEmirates"
+    },
+    {
+      "id": 2,
+      "departureTime": "18:30",
+      "arrivalTime": "07:00 (+1)",
+      "duration": "12 hour(s) 30 minute(s)",
+      "stops": 2,
+      "stopLocations": [
+        "Dubai (DXB)",
+        "Istanbul (IST)"
+      ],
+      "stopDurations": [
+        "2 hour(s) 10 minute(s)",
+        "1 hour(s) 45 minute(s)"
+      ],
+      "airline": "Infinity Wings",
+      "flightCode": "FJ300",
+      "price": "PKR 132000",
+      "date": "10 Sep 2024",
+      "departureCountry": "Pakistan",
+      "arrivalCountry": "Turkey"
+    },
+    {
+      "id": 3,
+      "departureTime": "13:05",
+      "arrivalTime": "13:20 (+2)",
+      "duration": "48 hour(s) 15 minute(s)",
+      "stops": 1,
+      "airline": "Infinity Wings",
+      "flightCode": "9P501",
+      "price": "PKR 128718",
+      "date": "11 Sep 2024",
+      "departureCountry": "Pakistan",
+      "arrivalCountry": "Australia"
+    },
+    {
+      "id": 4,
+      "departureTime": "16:45",
+      "arrivalTime": "09:00 (+1)",
+      "duration": "16 hour(s) 15 minute(s)",
+      "stops": 2,
+      "stopLocations": [
+        "Doha (DOH)",
+        "Amsterdam (AMS)"
+      ],
+      "stopDurations": [
+        "2 hour(s) 20 minute(s)",
+        "1 hour(s) 50 minute(s)"
+      ],
+      "airline": "Infinity Wings",
+      "flightCode": "FJ301",
+      "price": "PKR 134500",
+      "date": "11 Sep 2024",
+      "departureCountry": "Pakistan",
+      "arrivalCountry": "Netherlands"
+    },
+    {
+      "id": 5,
+      "departureTime": "21:00",
+      "arrivalTime": "13:20 (+2)",
+      "duration": "40 hour(s) 20 minute(s)",
+      "stops": 1,
+      "airline": "Infinity Wings",
+      "flightCode": "9P502",
+      "price": "PKR 128718",
+      "date": "12 Sep 2024",
+      "departureCountry": "Pakistan",
+      "arrivalCountry": "United States"
+    },
+    {
+      "id": 6,
+      "departureTime": "09:00",
+      "arrivalTime": "23:30",
+      "duration": "14 hour(s) 30 minute(s)",
+      "stops": 2,
+      "stopLocations": [
+        "Abu Dhabi (AUH)",
+        "Paris (CDG)"
+      ],
+      "stopDurations": [
+        "1 hour(s) 45 minute(s)",
+        "2 hour(s) 10 minute(s)"
+      ],
+      "airline": "Infinity Wings",
+      "flightCode": "FJ302",
+      "price": "PKR 128500",
+      "date": "12 Sep 2024",
+      "departureCountry": "Pakistan",
+      "arrivalCountry": "France"
+    },
+    {
+      "id": 7,
+      "departureTime": "21:00",
+      "arrivalTime": "13:20 (+2)",
+      "duration": "40 hour(s) 20 minute(s)",
+      "stops": 1,
+      "airline": "Infinity Wings",
+      "flightCode": "9P503",
+      "price": "PKR 128718",
+      "date": "13 Sep 2024",
+      "departureCountry": "Pakistan",
+      "arrivalCountry": "United States"
+    },
+    {
+      "id": 8,
+      "departureTime": "15:00",
+      "arrivalTime": "06:30 (+1)",
+      "duration": "15 hour(s) 30 minute(s)",
+      "stops": 2,
+      "stopLocations": [
+        "Frankfurt (FRA)",
+        "Zurich (ZRH)"
+      ],
+      "stopDurations": [
+        "1 hour(s) 55 minute(s)",
+        "2 hour(s) 5 minute(s)"
+      ],
+      "airline": "Infinity Wings",
+      "flightCode": "FJ303",
+      "price": "PKR 132000",
+      "date": "13 Sep 2024",
+      "departureCountry": "Pakistan",
+      "arrivalCountry": "Switzerland"
+    },
+    {
+      "id": 9,
+      "departureTime": "21:00",
+      "arrivalTime": "13:20 (+2)",
+      "duration": "40 hour(s) 20 minute(s)",
+      "stops": 1,
+      "airline": "Infinity Wings",
+      "flightCode": "9P504",
+      "price": "PKR 128718",
+      "date": "14 Sep 2024",
+      "departureCountry": "Pakistan",
+      "arrivalCountry": "United States"
+    },
+    {
+      "id": 10,
+      "departureTime": "12:30",
+      "arrivalTime": "01:45 (+1)",
+      "duration": "13 hour(s) 15 minute(s)",
+      "stops": 2,
+      "stopLocations": [
+        "Istanbul (IST)",
+        "Vienna (VIE)"
+      ],
+      "stopDurations": [
+        "2 hour(s) 30 minute(s)",
+        "1 hour(s) 45 minute(s)"
+      ],
+      "airline": "Infinity Wings",
+      "flightCode": "FJ304",
+      "price": "PKR 135000",
+      "date": "14 Sep 2024",
+      "departureCountry": "Pakistan",
+      "arrivalCountry": "Austria"
+    },
+    {
+      "id": 11,
+      "departureTime": "21:00",
+      "arrivalTime": "13:20 (+2)",
+      "duration": "40 hour(s) 20 minute(s)",
+      "stops": 1,
+      "airline": "Infinity Wings",
+      "flightCode": "9P505",
+      "price": "PKR 128718",
+      "date": "15 Sep 2024",
+      "departureCountry": "Pakistan",
+      "arrivalCountry": "United States"
+    },
+    {
+      "id": 12,
+      "departureTime": "11:00",
+      "arrivalTime": "20:00 (+1)",
+      "duration": "20 hour(s) 0 minute(s)",
+      "stops": 1,
+      "airline": "Infinity Wings",
+      "flightCode": "9P600",
+      "price": "PKR 128718",
+      "date": "15 Sep 2024",
+      "departureCountry": "UnitedArabEmirates",
+      "arrivalCountry": "Armenia"
+    }
+  ],
+  "MealsData":[
+    {
+      "id": 1,
+      "name": "Pakistani Combo with Water",
+      "description": "Pakistani Combo with Water",
+      "category": "Hot Meals",
+      "price": "Free"
+    },
+    {
+      "id": 2,
+      "name": "Regional Breakfast with Water",
+      "description": "Regional Breakfast with Water",
+      "category": "Hot Breakfast",
+      "price": "Free"
+    },
+    {
+      "id": 3,
+      "name": "Chicken Biryani with Potato Cutlet and water",
+      "description": "Chicken Biryani with Potato Cutlet and water",
+      "category": "Hot Meals",
+      "price": "250 Rs"
+    },
+    {
+      "id": 4,
+      "name": "Veg Biryani with potato cutlet and water",
+      "description": "Veg Biryani with potato cutlet and water",
+      "category": "Hot Meals",
+      "price": "Free"
+    },
+    {
+      "id": 5,
+      "name": "Mix BBQ Platter with water",
+      "description": "Mix BBQ Platter with water",
+      "category": "Hot Meals",
+      "price": "Free"
+    },
+    {
+      "id": 6,
+      "name": "Chicken Pepporoni Sandwich with water",
+      "description": "Chicken Pepporoni Sandwich with water",
+      "category": "Sandwiches",
+      "price": "300 Rs"
+    },
+    {
+      "id": 7,
+      "name": "Tandoori Chicken Sandwich in Focaccia Baguette with Water",
+      "description": "Layers of grilled chicken marinated in tandoori spices, topped with onions and spiced mayonnaise housed in a baguette and water.",
+      "category": "Sandwiches",
+      "price": "550 Rs"
+    },
+    {
+      "id": 8,
+      "name": "Veg and Cheese Sandwich with water",
+      "description": "Veg and Cheese Sandwich with water",
+      "category": "Sandwiches",
+      "price": "350 Rs"
+    },
+    {
+      "id": 9,
+      "name": "Fresh Seasonal Fruit Salad with water",
+      "description": "Fresh Seasonal Fruit Salad with water",
+      "category": "Salad",
+      "price": "Free"
+    },
+    {
+      "id": 10,
+      "name": "Mediterranean Pasta Salad with water",
+      "description": "Mediterranean Pasta Salad with water",
+      "category": "Salad",
+      "price": "440 Rs"
+    },
+    {
+      "id": 11,
+      "name": "Roast Chicken with chili with water",
+      "description": "Roast Chicken with chili with water",
+      "category": "Hot Meals",
+      "price": "630 Rs"
+    }
+  ]
+  
+}

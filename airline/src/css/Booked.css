@@ -1,0 +1,102 @@
+.boarding-pass {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #E5E5E5;
+    border-radius: 10px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .boarding-pass-header {
+    background-color:#ff4d4f;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .boarding-pass-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .boarding-pass-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 2px dashed #E5E5E5;
+  }
+  
+  .details-left {
+    text-align: center;
+    padding-left: 80px;
+  }
+  .home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 3px auto;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .home-button:hover {
+    background-color: grey;
+  }
+  
+  
+  .details-left p {
+    margin: 5px 0;
+    font-size: 18px;
+    color:black
+  }
+  
+  .boarding-pass-route {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .boarding-pass-route h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .plane-icon {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .boarding-pass-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .boarding-pass-footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .barcode {
+    height: 50px;
+    background: repeating-linear-gradient(
+      90deg,
+      black,
+      black 2px,
+      white 2px,
+      white 4px
+    );
+    margin: 10px 0;
+  }
+  
+  .qr-code {
+    width: 50px;
+    height: 50px;
+    background: url('https://via.placeholder.com/50') no-repeat center center;
+    background-size: cover;
+  }
+  

@@ -1,0 +1,285 @@
+.meals-container {
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  .meal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .meal-header h2 {
+    font-size: 26px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .skip-selection {
+    color: #ff4d4f;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .flight-info {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .flight-icon {
+    margin-left: 8px;
+  }
+  
+  
+  .search-sort {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .sort-select {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .meal-categories {
+    margin-bottom: 25px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .category {
+    padding: 10px 20px;
+    background: #ddd;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #555;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .category.active, .category:hover {
+    background-color: #ff4d4f;
+    color: white;
+  }
+  
+  .meal-items {
+    margin-bottom: 20px;
+  }
+  
+  .meal-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .meal-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .meal-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .meal-description h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .meal-description p {
+    margin: 0;
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .meal-price {
+    margin-left: auto;
+    font-size: 18px;
+ margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+
+  } 
+  .add-meal-button {
+    background: #ff4d4f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: background-color 0.3s;
+    width: fit-content;
+  }
+  
+  .add-meal-button:hover {
+    background: #e84545;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .page-number {
+    padding: 10px 15px;
+    background: #ddd;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .page-number.active, .page-number:hover {
+    background: #ff4d4f;
+    color: white;
+  }
+  
+  .confirm-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #fafafa;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .confirm-button {
+    background: #ff4d4f;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .confirm-button:hover {
+    background: #e84545;
+  }
+   
+  .selected-meals {
+    background-color: #f5f5f5; /* Light gray background for contrast */
+    padding: 20px; /* Adequate padding inside the div */
+    margin-bottom: 20px; /* Space below the div */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    text-align: center; /* Center align text inside */
+    max-width: 600px; /* Maximum width for the div */
+    margin-left: auto; /* Center align horizontally */
+    margin-right: auto; /* Center align horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border: 1px solid #ddd; /* Light border for definition */
+    font-family: 'Arial', sans-serif; /* Consistent font */
+  }
+  
+  .selected-meals h3 {
+    margin-bottom: 15px; /* Space below the heading */
+    color: #333; /* Darker text color for readability */
+    font-size: 24px; /* Larger font size for the heading */
+    font-weight: bold; /* Bold heading */
+  }
+  
+  .selected-meals ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .selected-meals li {
+    margin: 5px 0; /* Space between list items */
+    font-size: 16px; /* Font size for list items */
+    color: #555; /* Slightly darker color for list items */
+  }
+  
+  .total-bill {
+    margin-top: 15px; /* Space above the total bill */
+    font-weight: bold; /* Bold text for emphasis */
+    font-size: 18px; /* Font size for the total bill */
+    color: #333; /* Dark text color for readability */
+    display: flex;
+     padding-left: 200px;
+ 
+  }
+ 
+  .bill-label {
+    font-weight: bold;
+    margin-right: 5px; /* Adjust space between label and value */
+  }
+  .quantity-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .quantity-selector button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quantity-selector button:hover {
+    background-color: #000000;
+  }
+  
+  .quantity-selector span {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .done-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .done-button:hover {
+    background-color: #000000;
+  }
+  

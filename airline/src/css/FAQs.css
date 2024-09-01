@@ -1,0 +1,205 @@
+
+/* General Page Styles */
+.faqs-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0 auto; /* Centers the element horizontally */
+    max-width: 1100px; /* Optional: Limits the maximum width of the page */
+}
+
+  
+.faqs-heading-container {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+  
+.faqs-heading-bar {
+    height: 5px;
+    background-color: #676767;
+    width: 100%;
+}
+  
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+  
+.faqs-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #676767;
+    margin-top: 30px;
+}
+  
+.faqs-header ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.faqs-header ul li {
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+  
+.faqs-header ul li span {
+    font-weight: bold;
+    color: #676767;
+}
+  
+.faqs-help h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 40px;
+}
+  
+.faqs-help p {
+    font-size: 16px;
+    color: #666;
+}
+  
+.faqs-tabs {
+    margin-left: 20px; /* Adjusted to move tabs to the left */
+    margin-top: 20px;
+}
+  
+.tabs-nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+}
+  
+.tabs-nav li {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #666;
+    border-bottom: 3px solid transparent;
+}
+  
+.tabs-nav li.active {
+    color: #676767;
+    border-bottom: 3px solid #676767;
+}
+  
+.tabs-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+  
+.tab-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.tab-content ul li {
+    font-size: 16px;
+    color: #333;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.tab-content ul li:hover {
+    background-color: #f1f1f1;
+}
+  
+.btn-back {
+    color: #676767;
+    font-size: 24px; /* Adjust the size of the arrow icon */
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 0;
+    /* Additional styling if needed */
+}
+
+.btn-back:hover {
+    color: #c78282; /* Optional: change color on hover if desired */
+}
+.tab-content h6 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #676767;
+    margin-bottom: 10px;
+}
+  
+.tab-content p,
+.tab-content ul li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #666;
+    line-height: 1.5;
+}
+  
+.tab-content ul {
+    padding-left: 20px;
+}
+  
+.tab-content ul li {
+    list-style-type: disc;
+}
+  
+.tab-content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+/* Chat Icon Styles */
+.chat-icon-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensures it stays on top of other content */
+}
+
+.chat-icon {
+    display: inline-block;
+    background-color: #57595b; /* Change to your preferred color */
+    color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px; /* Centers the icon vertically */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.chat-icon:hover {
+    background-color: #1e1e1f; /* Change to a darker color on hover */
+}
+
+.chat-icon i {
+    margin-top: 0; /* Adjusts the icon positioning if needed */
+}
+.faq-arrow {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .faqs-header ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .faqs-header ul li.active .faq-arrow {
+    transform: rotate(180deg); /* Rotate arrow when active */
+  }

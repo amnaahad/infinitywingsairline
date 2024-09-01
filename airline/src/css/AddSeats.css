@@ -1,0 +1,222 @@
+.add-seats-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .seats-selection-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .select-seats-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .flight-route {
+    font-size: 18px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  .flight-number {
+    font-size: 16px;
+    color: #555;
+    margin-top: 2px;
+  }
+  
+  .remove-selection {
+    font-size: 14px;
+    color: #e84545;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .seats-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .passenger-list {
+    width: 30%;
+  }
+  
+  .passenger-list h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .passenger-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .passenger {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .passenger.active {
+    background-color: #e84545;
+    color: white;
+  }
+  
+  .seatmap-container {
+    width: 40%;
+  }
+  
+  .legend {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .legend-color {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  
+  .legend-color.available {
+    background-color: #ccc;
+  }
+  
+  .legend-color.occupied {
+    background-color: #999;
+  }
+  
+  .legend-color.selected {
+    background-color: #e84545;
+  }
+  .seat-selection-container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .seat-selection-left {
+    width: 50%;
+    padding-right: 20px;
+  }
+  
+  .passenger-list {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .passenger-item.active {
+    color: #e84545;
+  }
+  
+  
+  .passenger-item {
+    display: flex;
+    justify-content: space-between;
+    background: #f7f7f7;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .seat-map-legend {
+    margin-top: 20px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .available {
+    background: #dcdcdc;
+  }
+  
+  .occupied {
+    background: #888888;
+  }
+  
+  .selected {
+    background: #e84545;
+  }
+  
+  .seat-selection-right {
+    width: 50%;
+    text-align: right;
+  }
+  
+  .seat-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .seat-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .seat {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    line-height: 40px;
+    background: #dcdcdc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .seat.selected {
+    background: #e84545;
+  }
+  
+  .seat-summary {
+    margin-top: 20px;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .confirm-selection-btn {
+    background-color:#e84545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .back-button{
+    margin-top: 5px;
+    margin-right: 5px;
+    width: fit-content;
+    background-color: #e84545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
